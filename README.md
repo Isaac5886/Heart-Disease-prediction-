@@ -134,8 +134,8 @@ Models trained with `GridSearchCV` with `StratifiedKFold` (k = 5) cross-validati
 
 ---
 
-# 📈  Evaluation Metrics  
-Evaluated using multiple classification metrics:  
+# 📈  Model Evaluation  
+Evaluated model using:  
 - Accuracy  
 - Precision  
 - Recall 
@@ -147,6 +147,14 @@ Evaluated using multiple classification metrics:
 - Correlation matrix heatmap  
 - Count plots for categorical features  
 - Feature importance plots (Random Forest, LightGBM, CatBoost)
+
+-----
+
+🧰 Tech Stack
+
+- *Language*: Python
+- *Libraries*: Pandas, NumPy, Scikit-learn, XGBoost, CatBoost, imbalanced-learn (SMOTE), Matplotlib, Seabornu
+- *Tools*: Jupyter Notebook
 
 -----
 
@@ -162,4 +170,8 @@ The trained models effectively predict heart attack risk, supporting medical pro
 - Integrate into healthcare platforms for real-time predictions  
 
 ---
+🔗 Links
+
+- *GitHub Repo*: [Insert your GitHub repo link]
+
 
