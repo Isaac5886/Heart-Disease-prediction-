@@ -150,7 +150,7 @@ Evaluated model using:
 
 -----
 
-🧰 Tech Stack
+# 🧰 Tech Stack
 
 - *Language*: Python
 - *Libraries*: Pandas, NumPy, Scikit-learn, XGBoost, CatBoost, imbalanced-learn (SMOTE), Matplotlib, Seabornu
