@@ -114,7 +114,7 @@ Created interaction and ratio-based features to enhance model performance:
      - *L1_Lasso*
      - *SelectKBest*
      - *Mutual Information*
-     - *Random Forest
+     - *Random Forest*
     
  ---
 
@@ -125,7 +125,7 @@ Created interaction and ratio-based features to enhance model performance:
 ---
 
 # 🔍 Model Building & Hyperparameter Tuning  
-Models trained with `GridSearchCV` and `StratifiedKFold` cross-validation:  
+Models trained with `GridSearchCV` with `StratifiedKFold` (k = 5) cross-validation:  
 - Logistic Regression  
 - Random Forest  
 - LightGBM  
