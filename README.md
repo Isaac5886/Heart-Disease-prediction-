@@ -170,7 +170,7 @@ The trained models effectively predict heart attack risk, supporting medical pro
 - Integrate into healthcare platforms for real-time predictions  
 
 ---
-🔗 Links
+# 🔗 Links
 
 - *GitHub Repo*: [Insert your GitHub repo link]
 
