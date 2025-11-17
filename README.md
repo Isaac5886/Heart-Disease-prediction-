@@ -85,7 +85,7 @@ The dataset contains *8,763* user records and *26 features*, sourced from [Kaggl
 - Handled missing values  
 - Encoded categorical variables (e.g., `Sex`, `Diet`)  
 - Applied feature scaling (`StandardScaler`)  
-- Removed irrelevant features (e.g., `Patient ID`)  
+- Removed irrelevant features (e.g., `Patien_ID`, `Hemisphere`, `Continent`, `Blood_Pressure`)  
 
 ---
 
