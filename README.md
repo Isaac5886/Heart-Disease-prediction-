@@ -82,12 +82,20 @@ The dataset contains *8,763* user records and *26 features*, sourced from [Kaggl
 -----
 
 # 🧼 Data Preprocessing  
+
 - Handled missing values  
 - Encoded categorical variables (e.g., `Sex`, `Diet`)  
 - Applied feature scaling (`StandardScaler`)  
 - Removed irrelevant features (e.g., `Patien_ID`, `Hemisphere`, `Continent`, `Blood_Pressure`)  
-
+-----
 ---
+# 📊 Data Visualizations  
+- KDE plots, boxplots, histograms  
+- Correlation matrix heatmap  
+- Count plots for categorical features  
+- Feature importance plots (Random Forest, LightGBM, CatBoost)
+
+-----
 
 # 📊 Exploratory Data Analysis (EDA)
 - Distribution analysis (Age, Cholesterol, BMI, etc.)  
@@ -106,7 +114,7 @@ Created interaction and ratio-based features to enhance model performance:
 - `Income_to_Medication`  
 - `Smoking_Alcohol_Score`  
 
----
+-------
 
 # 🧪 Feature Selection
    - Methods like:
@@ -142,13 +150,7 @@ Evaluated model using:
 
 ---
 
-# 📊 Data Visualizations  
-- KDE plots, boxplots, histograms  
-- Correlation matrix heatmap  
-- Count plots for categorical features  
-- Feature importance plots (Random Forest, LightGBM, CatBoost)
 
------
 
 # 🧰 Tech Stack
 
@@ -156,6 +158,9 @@ Evaluated model using:
 - *Libraries*: Pandas, NumPy, Scikit-learn, XGBoost, CatBoost, imbalanced-learn (SMOTE), Matplotlib, Seabornu
 - *Tools*: Jupyter Notebook
 
+-----
+
+# 📈 Results & Observations
 -----
 
 # ✅ Conclusion  
