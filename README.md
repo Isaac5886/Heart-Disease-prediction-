@@ -161,6 +161,20 @@ Evaluated model using:
 -----
 
 # 📈 Results & Observations
+
+After training multiple ML models with various feature selection methods, here are the top results:
+
+| Feature Selection | Model               | Accuracy | Precision | Recall  | F1 Score |
+|------------------|---------------------|----------|-----------|---------|----------|
+| L1_Lasso         | Logistic Regression | 0.642879 | 0.700554  | 0.513778 | 0.625880 |
+| Mutual_Info      | XGBoost             | 0.644867 | 0.647378  | 0.636444 | 0.641865 |
+| SelectKBest      | CatBoost            | 0.640289 | 0.679502  | 0.533333 | 0.597610 |
+
+# 📌 Key Observations:
+
+- *Logistic Regression + L1_Lasso* gave the best F1 Score, showing balanced performance between precision and recall.
+- *XGBoost + Mutual_Info* had the best recall and strong overall balance, making it ideal where reducing false negatives is critical.
+- *CatBoost + SelectKBest* showed the highest precision, which is useful when false positives need to be minimized.
 -----
 
 # ✅ Conclusion  
