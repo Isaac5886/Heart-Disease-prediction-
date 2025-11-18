@@ -166,8 +166,8 @@ After training multiple ML models with various feature selection methods, here a
 
 | Feature Selection | Model               | Accuracy | Precision | Recall  | F1 Score |
 |------------------|---------------------|----------|-----------|---------|----------|
-| L1_Lasso         | Logistic Regression | 0.642879 | 0.700554  | 0.513778 | 0.625880 |
-| Mutual_Info      | XGBoost             | 0.644867 | 0.647378  | 0.636444 | 0.641865 |
+| L1_Lasso         | Logistic Regression | 0.692889 | 0.800554  | 0.513778 | 0.625880 |
+| Mutual_Info      | XGBoost             | 0.644889 | 0.647378  | 0.636444 | 0.641865 |
 | SelectKBest      | CatBoost            | 0.640289 | 0.679502  | 0.533333 | 0.597610 |
 
 # 📌 Key Observations:
