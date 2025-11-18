@@ -191,6 +191,6 @@ The trained models effectively predict heart attack risk, supporting medical pro
 ---
 # 🔗 Links
 
-- *GitHub Repo*: [Insert your GitHub repo link]
+- *GitHub Repo*: [https://github.com/Isaac5886]
 
 
