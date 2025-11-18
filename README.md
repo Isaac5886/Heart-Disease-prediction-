@@ -1,11 +1,11 @@
 # 🫀 Heart Attack Prediction Using Machine Learning
 
-# 📌 Overview  
+# 📌 OVERVIEW 
 This project focuses on predicting the risk of heart disease using supervised machine learning algorithms on structured health data. The goal is to build a reliable predictive model that could assist healthcare professionals in early diagnosis and risk assessment.
 
 ---
 
-# 📂 Project Structure
+# 📂 PROJECT STRUCTURE 
 ```
 ├── data/                 # Dataset used
 ├── models/               # Saved models (.pkl)
@@ -17,16 +17,16 @@ This project focuses on predicting the risk of heart disease using supervised ma
 
 ---
 
-# 🧠 Problem Statement  
+# 🧠 PROBLEM STATEMENT 
 Heart disease is a leading cause of death worldwide. Early prediction can help prevent fatal incidents. This project builds a machine learning model to classify whether an individual is at risk of a heart attack based on various health indicators.
 
 ---
 
-# 📁 Dataset
+# 📁 DATASET 
 
 The dataset contains *8,763* user records and *26 features*, sourced from [Kaggle](https://share.google/wOcbIlE09Nyk0fOzG). It includes both demographic and medical information used to predict heart attack risk.
 
-# Key Features:
+# KEY FEATURES:
 - *Patient ID:* Unique identifier for each patient.
 
 - *Age:* Age of the patient.
@@ -81,21 +81,21 @@ The dataset contains *8,763* user records and *26 features*, sourced from [Kaggl
 
 -----
 
-# 🧼 Data Preprocessing  
+# 🧼 DATA PREPROCESSING 
 
 - Handled missing values  
 - Applied feature scaling (`StandardScaler`)  
 - Removed irrelevant features (e.g., `Patient ID`, `Hemisphere`, `Continent`, `Blood Pressure`)  
 -----
 
-# 📊 Data Visualizations  
+# 📊 DATA VISUALIZATIONS 
 - KDE plots, boxplots, histograms  
 - Correlation matrix heatmap  
 - Count plots for categorical features 
 
 -----
 
-# 📊 Exploratory Data Analysis (EDA)
+# 📊 EXPLORATORY DATA ANALYSIS (EDA)
 - Distribution analysis (Age, Cholesterol, BMI, etc.)  
 - Correlation heatmap to identify relationships  
 - Outlier detection (boxplots)  
@@ -103,7 +103,7 @@ The dataset contains *8,763* user records and *26 features*, sourced from [Kaggl
 
 ---
 
-# ⚙️ Feature Engineering  
+# ⚙️ FEATURE ENGINEERING 
 Created interaction and ratio-based features to enhance model performance:
 - `BMI_Stress` = BMI × Stress Level  
 - `Activity_Ratio` = Exercise Hours per Week / (Sedentary Hours Per Day + 1)  
@@ -115,7 +115,7 @@ Created interaction and ratio-based features to enhance model performance:
 
 -------
 
-# 🧪 Feature Selection
+# 🧪 FEATURE SELECTION 
    - Methods like:
      - *RFE (Recursive Feature Elimination)*
      - *L1_Lasso*
@@ -125,13 +125,13 @@ Created interaction and ratio-based features to enhance model performance:
     
  ---
 
-# ⚖️ SMOTE (Synthetic Oversampling)  
+# ⚖️ SMOTE (SYNTHETIC OVERSAMPLING)  
 - Balanced the dataset using SMOTE to address class imbalance  
 - Improved model generalization and recall on minority class  
 
 ---
 
-# 🔍 Model Building & Hyperparameter Tuning  
+# 🔍 MODEL BUILDING & HYPERPARAMETER TUNING 
 Models trained with `GridSearchCV` with `StratifiedKFold` (k = 5) cross-validation:  
 - Logistic Regression  
 - Random Forest  
@@ -141,7 +141,7 @@ Models trained with `GridSearchCV` with `StratifiedKFold` (k = 5) cross-validati
 
 ---
 
-# 📈  Model Evaluation  
+# 📈  MODEL EVALUATION 
 Evaluated model using:  
 - Accuracy  
 - Precision  
@@ -151,8 +151,7 @@ Evaluated model using:
 ---
 
 
-
-# 🧰 Tech Stack
+# 🧰 TECH STACK 
 
 - *Language*: Python
 - *Libraries*: Pandas, NumPy, Scikit-learn, XGBoost, CatBoost, imbalanced-learn (SMOTE), Matplotlib, Seabornu
@@ -160,7 +159,7 @@ Evaluated model using:
 
 -----
 
-# 📈 Results & Observations
+# 📈 RESULTS & OBSERVATIONS 
 
 After training multiple ML models with various feature selection methods, here are the top results:
 
@@ -170,26 +169,26 @@ After training multiple ML models with various feature selection methods, here a
 | Mutual_Info      | XGBoost             | 0.644889 | 0.647378  | 0.636444 | 0.641865 |
 | SelectKBest      | CatBoost            | 0.640289 | 0.679502  | 0.533333 | 0.597610 |
 
-# 📌 Key Observations:
+# 📌 KEY OBSERVATIONS:
 
 - *Logistic Regression + L1_Lasso* gave the best F1 Score, showing balanced performance between precision and recall.
 - *XGBoost + Mutual_Info* had the best recall and strong overall balance, making it ideal where reducing false negatives is critical.
 - *CatBoost + SelectKBest* showed the highest precision, which is useful when false positives need to be minimized.
 -----
 
-# ✅ Conclusion  
+# ✅ CONCLUSION 
 The trained models effectively predict heart attack risk, supporting medical professionals with early warning tools for diagnosis and preventive measures.
 
 ---
 
-# 🚀 Future Improvements  
+# 🚀 FUTURE IMPROVEMENTS 
 - Use larger and more diverse datasets  
 - Incorporate clinical test results (e.g., ECG, CT scans)  
 - Apply deep learning techniques (e.g., CNN on medical images)  
 - Integrate into healthcare platforms for real-time predictions  
 
 ---
-# 🔗 Links
+# 🔗 LINKS
 
 - *GitHub Repo*: https://github.com/Isaac5886
 
