@@ -1,7 +1,7 @@
 # 🫀 Heart Attack Prediction Using Machine Learning
 
 # 📌 Overview  
-This project aims to predict the likelihood of a heart attack based on patient health indicators using various machine learning models. It covers data preprocessing, exploratory analysis, feature engineering, model building, evaluation, and optional deployment using Streamlit.
+This project focuses on predicting the risk of heart disease using supervised machine learning algorithms on structured health data. The goal is to build a reliable predictive model that could assist healthcare professionals in early diagnosis and risk assessment.
 
 ---
 
