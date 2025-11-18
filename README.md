@@ -84,16 +84,14 @@ The dataset contains *8,763* user records and *26 features*, sourced from [Kaggl
 # 🧼 Data Preprocessing  
 
 - Handled missing values  
-- Encoded categorical variables (e.g., `Sex`, `Diet`)  
 - Applied feature scaling (`StandardScaler`)  
-- Removed irrelevant features (e.g., `Patien_ID`, `Hemisphere`, `Continent`, `Blood_Pressure`)  
+- Removed irrelevant features (e.g., `Patient ID`, `Hemisphere`, `Continent`, `Blood Pressure`)  
 -----
----
+
 # 📊 Data Visualizations  
 - KDE plots, boxplots, histograms  
 - Correlation matrix heatmap  
-- Count plots for categorical features  
-- Feature importance plots (Random Forest, LightGBM, CatBoost)
+- Count plots for categorical features 
 
 -----
 
@@ -108,11 +106,12 @@ The dataset contains *8,763* user records and *26 features*, sourced from [Kaggl
 # ⚙️ Feature Engineering  
 Created interaction and ratio-based features to enhance model performance:
 - `BMI_Stress` = BMI × Stress Level  
-- `Activity_Ratio` = Exercise Hours / (Sedentary Hours + 1)  
-- `BP_Product` = Systolic × Diastolic BP  
-- `Sleep_Stress_Interaction`  
-- `Income_to_Medication`  
-- `Smoking_Alcohol_Score`  
+- `Activity_Ratio` = Exercise Hours per Week / (Sedentary Hours Per Day + 1)  
+- `BP_Product` = Systolic_BP × Diastolic_BP  
+- `Sleep_Stress_Interaction`  = Sleep Hours Per Day × Stress Level
+- `Substance_Use` = Smoking * Alcohol Consumption
+- `Diastolic_BP`
+- `Systolic_BP`
 
 -------
 
@@ -146,7 +145,8 @@ Models trained with `GridSearchCV` with `StratifiedKFold` (k = 5) cross-validati
 Evaluated model using:  
 - Accuracy  
 - Precision  
-- Recall 
+- Recall
+- F1_Score
 
 ---
 
