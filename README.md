@@ -1,4 +1,4 @@
-# 🫀 Heart Attack Prediction Using Machine Learning
+# 🫀 HEART ATTACK PREDICTION USING MACHINE LEARNING 
 
 # 📌 OVERVIEW 
 This project focuses on predicting the risk of heart disease using supervised machine learning algorithms on structured health data. The goal is to build a reliable predictive model that could assist healthcare professionals in early diagnosis and risk assessment.
@@ -161,7 +161,7 @@ Evaluated model using:
 
 # 📈 RESULTS & OBSERVATIONS 
 
-After training multiple ML models with various feature selection methods, here are the top results:
+After training and tuning  multiple Machine learning models with various feature selection methods, here are the top results:
 
 | Feature Selection | Model               | Accuracy | Precision | Recall  | F1 Score |
 |------------------|---------------------|----------|-----------|---------|----------|
