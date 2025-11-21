@@ -168,6 +168,7 @@ After training and tuning  multiple Machine learning models with various feature
 | L1_Lasso         | Logistic Regression | 0.692889 | 0.800554  | 0.513778 | 0.625880 |
 | Mutual_Info      | XGBoost             | 0.644889 | 0.647378  | 0.636444 | 0.641865 |
 | SelectKBest      | CatBoost            | 0.640289 | 0.679502  | 0.533333 | 0.597610 |
+| RandomForest-Importance | XGBoost | 0.628000 | 0.613386 | 0.692444 | 0.650522
 
 # 📌 KEY OBSERVATIONS:
 
