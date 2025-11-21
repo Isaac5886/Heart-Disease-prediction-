@@ -169,6 +169,7 @@ After training and tuning  multiple Machine learning models with various feature
 | Mutual_Info      | XGBoost             | 0.644889 | 0.647378  | 0.636444 | 0.641865 |
 | SelectKBest      | CatBoost            | 0.640289 | 0.679502  | 0.533333 | 0.597610 |
 | RandomForest-Importance | XGBoost | 0.628000 | 0.613386 | 0.692444 | 0.650522
+| RFE | CatBoost | 0.573778 | 0.564441 | 0.646222 | 0.602569
 
 # 📌 KEY OBSERVATIONS:
 
